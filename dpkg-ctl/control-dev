@@ -1,0 +1,10 @@
+Package: libzlog-dev
+Version: <version>
+Section: base
+Priority: optional
+Architecture: amd64
+Depends: libzlog-<maj_version> (= 1.2.14+smx)
+Maintainer: Simon Maurer <simon.maurer@humdek.unibe.ch>
+Description: Develpment Package for zlog Library
+ zlog is a reliable, high-performance, thread safe, flexible, clear-model, pure
+ C logging library.
