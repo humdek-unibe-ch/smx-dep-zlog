@@ -5,6 +5,8 @@ include config.mk
 LOC_INC_DIR = zlog/src
 LOC_LIB_DIR = zlog/src
 
+ZLOGNAME = libzlog
+
 LIB_VERSION = $(VMAJ).$(VMIN)
 UPSTREAM_VERSION = $(LIB_VERSION).$(VREV)
 DEBIAN_REVISION = 0
@@ -26,14 +28,14 @@ DYNLIB = $(LOC_LIB_DIR)/$(LIBNAME).so
 INCLUDES = $(LOC_INC_DIR)/*.h
 
 all:
-	$(MAKE) -C zlog/.
+	$(MAKE) -C zlog
 
 .PHONY: clean install uninstall
 
 install:
 	mkdir -p $(TGT_LIB) $(TGT_INCLUDE) $(TGT_CONF) $(TGT_LOG)
 	cp -a $(INCLUDES) $(TGT_INCLUDE)/.
-	cp -a $(LOC_LIB_DIR)/$(LIBNAME).so $(TGT_LIB)/$(SONAME)
+	cp -a $(LOC_LIB_DIR)/$(ZLOGNAME).so.$(LIB_VERSION) $(TGT_LIB)/$(SONAME)
 	ln -sf $(SONAME) $(TGT_LIB)/$(VLIBNAME).so
 	ln -sf $(SONAME) $(TGT_LIB)/$(LIBNAME).so
 	cp tpl/default.zlog $(TGT_CONF)/default.zlog
