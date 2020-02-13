@@ -7,4 +7,4 @@ export DH_VERBOSE = 1
 
 override_dh_fixperms:
 	dh_fixperms
-	chmod 666 /usr/etc/smx/default.zlog
+	find debian -name 'default.zlog' -exec chmod 0666 {} +
