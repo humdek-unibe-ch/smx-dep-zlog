@@ -11,4 +11,4 @@ VMIN = 2
 VREV = 14
 
 # the name of the library
-LIBNAME = libsmxzmq
+LIBNAME = libzlog
