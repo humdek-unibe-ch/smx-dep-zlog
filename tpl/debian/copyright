@@ -1,13 +1,13 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: <lib_name><maj_version>
+Upstream-Name: libzlog<maj_version>
 Source: https://github.com/HardySimpson/zlog
 
 Files: *
-Copyright: <date_y> Hardy Simpson <HardySimpson1984@gmail.com>
+Copyright: 2012 Hardy Simpson <HardySimpson1984@gmail.com>
 License: LGPL-2.1
 
 Files: debian/*
-Copyright: <date_y> Simon Maurer <simon.maurer@humdek.unibe.ch>
+Copyright: 2020 Simon Maurer <simon.maurer@humdek.unibe.ch>
 License: LGPL-2.1
 
 License: LGPL-2.1

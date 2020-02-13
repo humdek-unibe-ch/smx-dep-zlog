@@ -1,4 +1,4 @@
-Source: <lib_name><maj_version>
+Source: libzlog<maj_version>
 Priority: optional
 Maintainer: Simon Maurer <simon.maurer@humdek.unibe.ch>
 Build-Depends: debhelper (>= 10)
@@ -6,16 +6,16 @@ Standards-Version: 4.1.2
 Section: libs
 Homepage: http://phhum-a209-cp.unibe.ch:10012/SMX/SMX-deps/SMX-zlog
 
-Package: <lib_name>-dev
+Package: libzlog-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: <lib_name><maj_version> (= ${binary:Version}), ${misc:Depends}
-Description: Development Package for zlog Library '<lib_name>'
- This is the development package of the library '<lib_name>' which is a logging
+Depends: libzlog<maj_version> (= ${binary:Version}), ${misc:Depends}
+Description: Development Package for zlog Library 'libzlog'
+ This is the development package of the library 'libzlog' which is a logging
  library for C programs.
 
-Package: <lib_name><maj_version>
+Package: libzlog<maj_version>
 Architecture: any
 Multi-Arch: same
 Depends: ${shlibs:Depends}, ${misc:Depends}
