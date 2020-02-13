@@ -9,7 +9,7 @@ ZLOGNAME = libzlog
 
 LIB_VERSION = $(VMAJ).$(VMIN)
 UPSTREAM_VERSION = $(LIB_VERSION).$(VREV)
-DEBIAN_REVISION = 0
+DEBIAN_REVISION = 1
 VERSION = $(UPSTREAM_VERSION)-$(DEBIAN_REVISION)
 
 VLIBNAME = $(LIBNAME)-$(LIB_VERSION)
@@ -36,6 +36,7 @@ install:
 	mkdir -p $(TGT_LIB) $(TGT_INCLUDE) $(TGT_CONF) $(TGT_LOG)
 	cp -a $(INCLUDES) $(TGT_INCLUDE)/.
 	cp -a $(LOC_LIB_DIR)/$(ZLOGNAME).so.$(LIB_VERSION) $(TGT_LIB)/$(SONAME)
+	patchelf --set-soname $(SONAME) $(TGT_LIB)/$(SONAME)
 	ln -sf $(SONAME) $(TGT_LIB)/$(VLIBNAME).so
 	ln -sf $(SONAME) $(TGT_LIB)/$(LIBNAME).so
 	cp tpl/default.zlog $(TGT_CONF)/default.zlog

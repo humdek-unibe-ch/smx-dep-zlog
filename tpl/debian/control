@@ -11,9 +11,9 @@ Section: libdevel
 Architecture: any
 Multi-Arch: same
 Depends: <lib_name><maj_version> (= ${binary:Version}), ${misc:Depends}
-Description: Develpment Package for zlog Library '<lib_name>'
- zlog is a reliable, high-performance, thread safe, flexible, clear-model, pure
- C logging library.
+Description: Development Package for zlog Library '<lib_name>'
+ This is the development package of the library '<lib_name>' which is a logging
+ library for C programs.
 
 Package: <lib_name><maj_version>
 Architecture: any
