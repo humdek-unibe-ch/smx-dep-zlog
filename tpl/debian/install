@@ -1,1 +1,2 @@
 usr/lib/*/lib*.so*
+tpl/default.zlog etc/smx/libzlog<maj_version>
