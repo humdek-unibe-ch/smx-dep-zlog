@@ -1,2 +1,3 @@
-usr/lib/*/lib*.so*
+usr/lib/*/libzlog.so.<maj_version>
+usr/lib/*/libzlog-<maj_version>.so
 tpl/default.zlog etc/smx
