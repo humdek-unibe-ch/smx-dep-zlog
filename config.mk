@@ -6,10 +6,10 @@
 ###############################################################################
 
 # The version number of the box library ($(VMAJ).$(VMIN).$(VREV))
-VMAJ = 1
-VMIN = 2
+VMAJ = 0
+VMIN = 1
 VREV = 0
 VDEB = 1
 
 # the name of the library
-LIBNAME = zlog
+LIBNAME = smxzlog

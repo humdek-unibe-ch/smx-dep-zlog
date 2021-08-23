@@ -16,7 +16,7 @@ SOSRC = $(LLIBNAME).so.1.2
 SOTGT = $(LLIBNAME).so.$(LIB_VERSION)
 ANAME = $(LLIBNAME).a
 
-TGT_INCLUDE = $(DESTDIR)/usr/include/smx
+TGT_INCLUDE = $(DESTDIR)/usr/include/smx/$(VLIBNAME)
 TGT_LIB = $(DESTDIR)/usr/lib/x86_64-linux-gnu
 TGT_DOC = $(DESTDIR)/usr/share/doc/$(LLIBNAME)$(LIB_VERSION)
 TGT_CONF = $(DESTDIR)/etc/smx/$(LLIBNAME)$(LIB_VERSION)
