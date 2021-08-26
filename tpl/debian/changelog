@@ -1,4 +1,4 @@
-libzlog<maj_version> (<version>) bionic; urgency=medium
+libsmxzlog<maj_version> (<version>) bionic; urgency=medium
 
   * Initial release
 

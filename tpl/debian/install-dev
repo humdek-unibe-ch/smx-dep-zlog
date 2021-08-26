@@ -1,2 +1,2 @@
 usr/include/smx/*/*.h
-usr/lib/*/libzlog.so
+usr/lib/*/libsmxzlog.so

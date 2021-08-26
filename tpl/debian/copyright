@@ -1,5 +1,5 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: libzlog<maj_version>
+Upstream-Name: libsmxzlog<maj_version>
 Source: https://github.com/HardySimpson/zlog
 
 Files: *
