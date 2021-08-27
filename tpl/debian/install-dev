@@ -1,2 +1,3 @@
 usr/include/smx/*/*.h
 usr/lib/x86_64-linux-gnu/*/libzlog.so
+usr/lib/x86_64-linux-gnu/libsmxzlog.so

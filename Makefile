@@ -34,6 +34,7 @@ install:
 	cp -a $(LOC_LIB_DIR)/$(SONAME_SRC) $(TGT_LIB)/.
 	ln -sf $(SONAME_SRC) $(TGT_LIB)/$(VLIBNAME_SRC).so
 	ln -sf $(SONAME_SRC) $(TGT_LIB)/$(LLIBNAME_SRC).so
+	ln -sf $(VLIBNAME)/$(SONAME_SRC) $(TGT_LIB)/../$(LLIBNAME).so
 	ln -sf $(VLIBNAME)/$(SONAME_SRC) $(TGT_LIB)/../$(VLIBNAME).so
 	ln -sf $(VLIBNAME)/$(SONAME_SRC) $(TGT_LIB)/../$(SONAME_SRC)
 	cp tpl/default.zlog $(TGT_CONF)/default.zlog
@@ -44,6 +45,7 @@ uninstall:
 	rm $(TGT_LIB)/$(LLIBNAME_SRC).so
 	rm $(TGT_LIB)/$(VLIBNAME_SRC).so
 	rm $(TGT_LIB)/../$(VLIBNAME).so
+	rm $(TGT_LIB)/../$(LLIBNAME).so
 	rm $(TGT_LIB)/../$(SONAME_SRC)
 	rm $(TGT_CONF)/default.zlog
 
