@@ -1,4 +1,12 @@
-# `v0.2.0` (latest)
+# `v0.2.1` (latest)
+
+### Bug Fixes
+
+ - Fix Valgrind error
+
+
+-------------------
+# `v0.2.0`
 
 ### Changes
 
