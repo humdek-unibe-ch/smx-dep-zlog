@@ -40,14 +40,12 @@ install:
 	cp tpl/default.zlog $(TGT_CONF)/default.zlog
 
 uninstall:
-	rm $(addprefix $(TGT_INCLUDE)/,$(notdir $(wildcard $(INCLUDES))))
-	rm $(TGT_LIB)/$(SONAME_SRC)
-	rm $(TGT_LIB)/$(LLIBNAME_SRC).so
-	rm $(TGT_LIB)/$(VLIBNAME_SRC).so
 	rm $(TGT_LIB)/../$(VLIBNAME).so
 	rm $(TGT_LIB)/../$(LLIBNAME).so
 	rm $(TGT_LIB)/../$(SONAME_SRC)
-	rm $(TGT_CONF)/default.zlog
+	rm -r $(TGT_LIB)
+	rm -r $(TGT_INCLUDE)
+	rm -r $(TGT_CONF)
 
 clean:
 	$(MAKE) clean -C zlog
