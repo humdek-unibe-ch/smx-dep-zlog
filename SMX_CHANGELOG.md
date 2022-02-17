@@ -1,4 +1,16 @@
-# `v0.2.1` (latest)
+# `v0.3.0` (latest)
+
+### Bug Fixes
+
+ - Fix smx log path.
+
+### Changes
+
+ - Use version for dev package. 
+
+
+-------------------
+# `v0.2.1`
 
 ### Bug Fixes
 
