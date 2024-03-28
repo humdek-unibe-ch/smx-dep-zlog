@@ -1,4 +1,12 @@
-# `v0.3.0` (latest)
+# `v1.0.0` (latest)
+
+### Changes
+
+ - Allow compilation on windows.
+
+
+-------------------
+# `v0.3.0`
 
 ### Bug Fixes
 
