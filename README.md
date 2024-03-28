@@ -1,5 +1,8 @@
 # A Wrapper Repo for the zlog Project
 
+This is one of the core dependencies for all Streamix C libraries which build
+up a Streamix app.
+
 This repository solely serves as a wrapper for the zlog project to create a deb
 package from the latest release.
 
