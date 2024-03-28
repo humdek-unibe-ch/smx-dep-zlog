@@ -1,0 +1,4 @@
+usr/lib/x86_64-linux-gnu/*/libzlog.so.1.2
+usr/lib/x86_64-linux-gnu/*/libzlog-1.2.so
+usr/lib/x86_64-linux-gnu/libsmxzlog-1.0.so
+etc/smx/*/default.zlog
