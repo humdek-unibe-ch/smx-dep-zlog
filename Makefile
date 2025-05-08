@@ -31,7 +31,7 @@ all:
 .PHONY: clean install uninstall
 
 install:
-	mkdir -p $(TGT_LIB) $(TGT_INCLUDE) $(TGT_CONF) $(TGT_LOG)
+	mkdir -p $(TGT_LIB) $(TGT_INCLUDE) $(TGT_CONF) $(TGT_LOG) $(TGT_LD)
 	cp -a $(INCLUDES) $(TGT_INCLUDE)/.
 	cp -a $(LOC_LIB_DIR)/*.so* $(TGT_LIB)/.
 	ln -sf $(LLIBNAME_SRC).so $(TGT_LIB)/$(VLIBNAME).so
