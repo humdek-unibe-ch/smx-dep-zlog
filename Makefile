@@ -33,21 +33,16 @@ all:
 install:
 	mkdir -p $(TGT_LIB) $(TGT_INCLUDE) $(TGT_CONF) $(TGT_LOG)
 	cp -a $(INCLUDES) $(TGT_INCLUDE)/.
-	cp -a $(LOC_LIB_DIR)/$(SONAME_SRC) $(TGT_LIB)/.
-	ln -sf $(SONAME_SRC) $(TGT_LIB)/$(VLIBNAME_SRC).so
-	ln -sf $(SONAME_SRC) $(TGT_LIB)/$(LLIBNAME_SRC).so
-	ln -sf $(SONAME_SRC) $(TGT_LIB)/$(VLIBNAME).so
-	ln -sf $(SONAME_SRC) $(TGT_LIB)/$(LLIBNAME).so
+	cp -a $(LOC_LIB_DIR)/*.so* $(TGT_LIB)/.
+	ln -sf $(LLIBNAME_SRC).so $(TGT_LIB)/$(VLIBNAME).so
 	echo $(TGT_LIB) > $(TGT_LD)/$(PKGNAME).conf
 	cp tpl/default.zlog $(TGT_CONF)/default.zlog
 
 uninstall:
-	rm $(TGT_LIB)/../$(VLIBNAME).so
-	rm $(TGT_LIB)/../$(LLIBNAME).so
-	rm $(TGT_LIB)/../$(SONAME_SRC)
-	rm -r $(TGT_LIB)
-	rm -r $(TGT_INCLUDE)
-	rm -r $(TGT_CONF)
+	rm -rf $(TGT_LIB)
+	rm -rf $(TGT_INCLUDE)
+	rm -rf $(TGT_CONF)
+	rm -f $(TGT_LD)/$(PKGNAME).conf
 
 clean:
 	$(MAKE) clean -C zlog

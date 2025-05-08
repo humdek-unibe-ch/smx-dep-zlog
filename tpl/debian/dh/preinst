@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+#DEBHELPER#
+
+echo "/lib/x86_64-linux-gnu/libsmxzlog-<maj_version>" > /etc/ld.so.conf.d/libsmxzlog<maj_version>.conf
+
+exit 0
+
