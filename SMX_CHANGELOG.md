@@ -1,4 +1,4 @@
-# `v1.0.1` (latest)
+# `v1.1.0` (latest)
 
 ### Improvements
 - change installation for improved dependency resolving
