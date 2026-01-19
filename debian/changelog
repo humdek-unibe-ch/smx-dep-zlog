@@ -1,5 +1,11 @@
 libsmxzlog1.1 (1.1.0-1) focal; urgency=medium
 
+  * Create package files for new release v1.1.0
+
+ -- Simon Maurer <simon.maurer@unibe.ch>  Mon, 19 Jan 2026 14:21:57 +0000
+
+libsmxzlog1.1 (1.1.0-1) focal; urgency=medium
+
   * Initial release
 
  -- Simon Maurer <simon.maurer@unibe.ch>  Mon, 19 Jan 2026 14:21:57 +0000
