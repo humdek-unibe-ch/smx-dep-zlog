@@ -1,0 +1,7 @@
+#!/bin/sh
+set -e
+#DEBHELPER#
+
+rm -f /etc/ld.so.conf.d/libsmxzlog1.1.conf
+
+exit 0
