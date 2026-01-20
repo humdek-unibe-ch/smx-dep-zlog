@@ -1,5 +1,11 @@
 libsmxzlog1.1 (1.1.0-1) bookworm; urgency=medium
 
+  * Create package files for new release v1.1.0
+
+ -- Simon Maurer <simon.maurer@unibe.ch>  Tue, 20 Jan 2026 07:55:54 +0000
+
+libsmxzlog1.1 (1.1.0-1) bookworm; urgency=medium
+
   * Initial release
 
  -- Simon Maurer <simon.maurer@unibe.ch>  Tue, 20 Jan 2026 07:55:54 +0000
