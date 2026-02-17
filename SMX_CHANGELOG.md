@@ -1,16 +1,25 @@
-# `v1.0.1` (latest)
+# Changelog
+
+-------------------
+## `v1.1.1` (latest)
+
+### Changes
+- Bump to avoid multi-distro issues.
+
+-------------------
+## `v1.1.0`
 
 ### Improvements
 - change installation for improved dependency resolving
 
 -------------------
-# `v1.0.0`
+## `v1.0.0`
 
 ### Changes
 - Allow compilation on windows.
 
 -------------------
-# `v0.3.0`
+## `v0.3.0`
 
 ### Bug Fixes
 - Fix smx log path.
@@ -19,19 +28,19 @@
 - Use version for dev package. 
 
 -------------------
-# `v0.2.1`
+## `v0.2.1`
 
 ### Bug Fixes
 - Fix Valgrind error
 
 -------------------
-# `v0.2.0`
+## `v0.2.0`
 
 ### Changes
 - Avoid prio inversion problems during runtime (not initialisation).
 
 -------------------
-# `v0.1.0`
+## `v0.1.0`
 
 Initial release.
 Note that an older package was named `zlog-1.2` was used before.
