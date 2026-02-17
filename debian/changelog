@@ -1,8 +1,10 @@
-libsmxzlog1.1 (1.1.0-1) trixie; urgency=medium
+libsmxzlog1.1 (1.1.1-1) trixie; urgency=medium
 
-  * Create package files for new release v1.1.0
+  * Create package files for new release v1.1.1
+  * Release v1.1.1
+  * bump for multi-distro compatibility
 
- -- Simon Maurer <simon.maurer@unibe.ch>  Tue, 20 Jan 2026 09:42:57 +0000
+ -- Simon Maurer <simon.maurer@protonmail.ch>  Tue, 17 Feb 2026 14:35:22 +0100
 
 libsmxzlog1.1 (1.1.0-1) trixie; urgency=medium
 
