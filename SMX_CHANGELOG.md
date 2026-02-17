@@ -1,7 +1,13 @@
 # Changelog
 
 -------------------
-## `v1.1.0` (latest)
+## `v1.1.1` (latest)
+
+### Changes
+- Bump to avoid multi-distro issues.
+
+-------------------
+## `v1.1.0`
 
 ### Improvements
 - change installation for improved dependency resolving
