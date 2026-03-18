@@ -1,3 +1,13 @@
+libsmxzlog1.1 (1.1.1-1) noble; urgency=medium
+
+  * fix changelog
+  * fix changelog
+  * Create package files for new release v1.1.0
+  * Release v1.1.0
+  * bump for multi-distro compatibility
+
+ -- Simon Maurer <simon.maurer@unibe.ch>  Wed, 18 Mar 2026 09:51:44 +0000
+
 libsmxzlog1.1 (1.1.0-1) noble; urgency=medium
 
   * Create package files for new release v1.1.0
