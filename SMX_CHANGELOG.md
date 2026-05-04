@@ -1,7 +1,13 @@
 # Changelog
 
 -------------------
-## `v1.1.1` (latest)
+## `v1.2.0` (latest)
+
+### Changes
+- Change to MPL-2.0 license
+
+-------------------
+## `v1.1.1`
 
 ### Changes
 - Bump to avoid multi-distro issues.
