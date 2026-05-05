@@ -1,7 +1,13 @@
 # Changelog
 
 -------------------
-## `v1.2.1` (latest)
+## `v1.2.2` (latest)
+
+### Improvements
+- Add license file.
+
+-------------------
+## `v1.2.1`
 
 ### Improvements
 - Add license notice to files.
