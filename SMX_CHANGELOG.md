@@ -1,10 +1,16 @@
 # Changelog
 
 -------------------
-## `v1.2.0` (latest)
+## `v1.2.1` (latest)
+
+### Improvements
+- Add license notice to files.
+
+-------------------
+## `v1.2.0`
 
 ### Changes
-- Change to MPL-2.0 license
+- Change to MPL-2.0 license.
 
 -------------------
 ## `v1.1.1`
