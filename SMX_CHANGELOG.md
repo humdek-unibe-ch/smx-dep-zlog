@@ -1,7 +1,13 @@
 # Changelog
 
 -------------------
-## `v1.2.2` (latest)
+## `v1.2.3` (latest)
+
+### Bug Fixes
+- Fix copyright files order.
+
+-------------------
+## `v1.2.2`
 
 ### Improvements
 - Add license file.

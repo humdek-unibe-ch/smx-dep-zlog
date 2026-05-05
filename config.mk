@@ -1,4 +1,4 @@
-#  SPDX-License-Identifier: MPL-2.0
+# SPDX-License-Identifier: MPL-2.0
 
 ###############################################################################
 # CUTOMIZE THIS FILE TO SUIT YOUR NEEDS FOR THE BUILD PROCESS                 #
@@ -10,7 +10,7 @@
 # The version number of the box library ($(VMAJ).$(VMIN).$(VREV))
 VMAJ = 1
 VMIN = 2
-VREV = 2
+VREV = 3
 VDEB = 1
 
 # the name of the library
