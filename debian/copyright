@@ -2,6 +2,16 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: libsmxzlog1.2
 Source: https://github.com/humdek-unibe-ch/smx-dep-zlog
 
+Files: *
+Copyright: 2020 Simon Maurer <simon.maurer@unibe.ch>
+License: MPL-2.0
+ This Source Code Form is subject to the terms of the Mozilla Public
+ License, v. 2.0. If a copy of the MPL was not distributed with this
+ file, You can obtain one at https://mozilla.org/MPL/2.0/.
+ .
+ On Debian systems, the full text of the Mozilla Public License,
+ version 2.0 can be found in /usr/share/common-licenses/MPL-2.0.
+
 Files: zlog/*
 Copyright: 2012 Hardy Simpson <HardySimpson1984@gmail.com>
 License: LGPL-2.1
@@ -39,13 +49,3 @@ License: GPL-2+
  .
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
-
-Files: *
-Copyright: 2020 Simon Maurer <simon.maurer@unibe.ch>
-License: MPL-2.0
- This Source Code Form is subject to the terms of the Mozilla Public
- License, v. 2.0. If a copy of the MPL was not distributed with this
- file, You can obtain one at https://mozilla.org/MPL/2.0/.
- .
- On Debian systems, the full text of the Mozilla Public License,
- version 2.0 can be found in /usr/share/common-licenses/MPL-2.0.
