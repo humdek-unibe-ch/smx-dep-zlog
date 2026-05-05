@@ -1,3 +1,11 @@
+libsmxzlog1.2 (1.2.3-1) trixie; urgency=medium
+
+  * fix copyright files order
+  * new revision
+  * Create package files for new release v1.2.3
+
+ -- Simon Maurer <simon.maurer@unibe.ch>  Tue, 05 May 2026 11:24:55 +0200
+
 libsmxzlog1.2 (1.2.2-1) trixie; urgency=medium
 
   * add license file
