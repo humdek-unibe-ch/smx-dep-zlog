@@ -1,4 +1,4 @@
-#  SPDX-License-Identifier: MPL-2.0
+# SPDX-License-Identifier: MPL-2.0
 
 ###############################################################################
 # CUTOMIZE THIS FILE TO SUIT YOUR NEEDS FOR THE BUILD PROCESS                 #
