@@ -1,3 +1,5 @@
+#  SPDX-License-Identifier: MPL-2.0
+
 SHELL := /bin/bash
 SRC_NAME = zlog
 
