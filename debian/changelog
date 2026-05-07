@@ -1,5 +1,11 @@
 libsmxzlog1.2 (1.2.3-1) noble; urgency=medium
 
+  * UNRELEASED
+
+ -- Simon Maurer <simon.maurer@unibe.ch>  Thu, 07 May 2026 13:59:10 +0000
+
+libsmxzlog1.2 (1.2.3-1) noble; urgency=medium
+
   * Initial release
 
  -- Simon Maurer <simon.maurer@unibe.ch>  Thu, 07 May 2026 13:59:08 +0000
