@@ -1,0 +1,24 @@
+Source: libsmxzlog1.2
+Priority: optional
+Maintainer: Simon Maurer <simon.maurer@unibe.ch>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Section: libs
+Homepage: https://github.com/humdek-unibe-ch/smx-dep-zlog
+
+Package: libsmxzlog1.2-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: libsmxzlog1.2 (= ${binary:Version}), ${misc:Depends}
+Description: Development Package for zlog Library 'libzlog1.2'
+ This is the development package of the library 'libzlog1.2' which
+ is a logging library for C programs.
+
+Package: libsmxzlog1.2
+Architecture: any
+Multi-Arch: same
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: zlog Library
+ zlog is a reliable, high-performance, thread safe, flexible, clear-model, pure
+ C logging library.
